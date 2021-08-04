@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../icons/css/all.min.css">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <img src="../images/logo.png" alt="" class="logo">
+        <ul>
+            <li><a href="#nav">Home</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <!-- <li><a href="#">Contact</a></li> -->
+        </ul>
+        <button class="chat"><a href="#contact">Lets talk</a></button>
+    </nav>
+    <section class="intro" id="intro">
+        <section class="about">
+            <p>Hello</p>
+            <p>I'm <span>Sayantan</span> Ghosh</p>
+            <p>A self taught front end developer working towards becoming a full stack dev.
+               I am also a final year student of engineering doing my B.Tech in Electronics and Telecommunication
+            </p>
+            <button><a href="#">Download CV</a></button>
+        </section>
+        <section class="introPic">
+            <img src="../images/back3.png" alt="">
+        </section>
+    </section>
+
+    <section class="skill" id="skill">
+        <p>My skills</p>
+        <section class="skillset">
+            <section class="skillcard">
+                <img src="../images/skill1.png" alt="" class="img">       
+                <h1>Web Development</h1>
+                <p>HTML, CSS, JavaScript, animation , wordpress, responsive designs</p>
+                <button><a href="#">Explore</a></button>
+            </section>
+            <section class="skillcard">
+                <img src="../images/skill2.png" alt="" class="img">       
+                <h1>Embedded platforms</h1>
+                <p>Arduino, Raspberry Pi, Node MCU, IOT, Intel and arm chips</p>
+                <button><a href="#">Explore</a></button>
+            </section>
+        </section>
+    </section>
+
+    <section class="projects"></section>
+
+    <section class="contact" id="contact">
+        <section class="panel1">
+            <section class="head">
+                <p>Contacts</p>
+                <small>Fill the form and I will get back to you within 24 Hrs</small>
+            </section>
+            <section class="contactInfo">
+                <div>
+                    <i class="fal fa-envelope"></i>
+                    <span>sayantansnt@gmail.com</span>
+                </div>
+                <div>
+                    <i class="fal fa-phone-alt"></i>
+                    <span>9777825860</span>
+                </div>
+            </section>
+            <section class="socials">
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+            </section>
+        </section>
+        <section class="panel2">
+            <form class="form" id="form">
+                <section>
+                    <input type="text" placeholder="Subject">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="tel" placeholder="Number">
+                </section>
+                <section>
+                    <textarea cols="30" rows="10" placeholder="Describe your project"></textarea>
+                    <button type="submit">Send</button>
+                </section>
+            </form>
+        </section>
+    </section>
+</body>
+</html>
